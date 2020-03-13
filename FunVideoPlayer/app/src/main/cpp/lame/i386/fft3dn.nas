@@ -4,7 +4,7 @@
 ; hacked and back-ported to LAME
 ;	 by Takehiro TOMINAGA Nov 2000
 
-%include "nasm.h"
+%ffmpeg.include "nasm.h"
 
 	globaldef fht_3DN
 

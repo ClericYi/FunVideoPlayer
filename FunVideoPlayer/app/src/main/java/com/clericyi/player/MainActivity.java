@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
     }
 
     private Button mp3_encoder_btn;
+    private TextView text;
     private final String TAG = "MainActivity";
 
     @Override
@@ -51,6 +52,9 @@ public class MainActivity extends Activity {
             }
         });
 
+        text = findViewById(R.id.title);
+        text.setText(getString());
+
         PermissionUtil.checkAndRequestPermission(this,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
                 , 1);
@@ -73,4 +77,6 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public native String getString();
 }

@@ -17,7 +17,6 @@ android {
             }
         }
         ndk {
-            // 加了其他的文件夹（比如 armeabi-v7a，x86等）可能会出问题
             abiFilters "armeabi-v7a"
         }
     }
@@ -31,6 +30,13 @@ android {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
             version "3.10.2"
+        }
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src/main/res', 'src/main/jniLibs'
+            }
         }
     }
 }

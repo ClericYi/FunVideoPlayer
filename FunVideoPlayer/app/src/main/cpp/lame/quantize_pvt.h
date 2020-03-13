@@ -1,5 +1,5 @@
 /*
- *	quantize_pvt include file
+ *	quantize_pvt ffmpeg.include file
  *
  *	Copyright (c) 1999 Takehiro TOMINAGA
  *

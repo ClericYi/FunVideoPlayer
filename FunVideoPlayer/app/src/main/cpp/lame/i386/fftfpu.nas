@@ -4,7 +4,7 @@
 ;	Copyright (C) 1999 shigeo
 ;	special thanks to URURI
 
-%include "nasm.h"
+%ffmpeg.include "nasm.h"
 
 	externdef costab_fft
 	externdef sintab_fft

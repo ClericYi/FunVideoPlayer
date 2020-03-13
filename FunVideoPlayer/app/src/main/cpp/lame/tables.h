@@ -1,5 +1,5 @@
 /*
- *	MPEG layer 3 tables include file
+ *	MPEG layer 3 tables ffmpeg.include file
  *
  *	Copyright (c) 1999 Albert L Faber
  *

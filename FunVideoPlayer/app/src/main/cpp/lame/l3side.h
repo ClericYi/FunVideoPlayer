@@ -1,5 +1,5 @@
 /*
- *	Layer 3 side include file
+ *	Layer 3 side ffmpeg.include file
  *
  *	Copyright (c) 1999 Mark Taylor
  *

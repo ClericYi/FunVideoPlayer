@@ -3,7 +3,6 @@
 /* Header for class com_clericyi_player_Mp3Encoder */
 
 #ifndef _Included_com_clericyi_player_Mp3Encoder
-#define _Included_com_clericyi_player_Mp3Encoder
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -13,7 +12,7 @@ extern "C" {
  * Signature: (Ljava/lang/String;IIILjava/lang/String;)I
  */
 JNIEXPORT jint JNICALL Java_com_clericyi_player_Mp3Encoder_init
-  (JNIEnv *, jobject, jstring, jint, jint, jint, jstring);
+        (JNIEnv *, jobject, jstring, jint, jint, jint, jstring);
 
 /*
  * Class:     com_clericyi_player_Mp3Encoder
@@ -21,7 +20,7 @@ JNIEXPORT jint JNICALL Java_com_clericyi_player_Mp3Encoder_init
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_com_clericyi_player_Mp3Encoder_encode
-  (JNIEnv *, jobject);
+        (JNIEnv *, jobject);
 
 /*
  * Class:     com_clericyi_player_Mp3Encoder
@@ -29,7 +28,7 @@ JNIEXPORT void JNICALL Java_com_clericyi_player_Mp3Encoder_encode
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_com_clericyi_player_Mp3Encoder_destroy
-  (JNIEnv *, jobject);
+        (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }

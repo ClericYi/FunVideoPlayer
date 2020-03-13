@@ -5,7 +5,7 @@
  *  values. Currently the values starting at -10 to avoid intersection
  *  with the -1, -2, -3 and -4 used in the current code.
  *
- *  May be this should be a part of the include/lame.h.
+ *  May be this should be a part of the ffmpeg.include/lame.h.
  */
 
 typedef enum {

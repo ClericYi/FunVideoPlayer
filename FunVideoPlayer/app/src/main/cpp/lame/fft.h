@@ -1,5 +1,5 @@
 /*
- *	Fast Fourier Transform include file
+ *	Fast Fourier Transform ffmpeg.include file
  *
  *	Copyright (c) 2000 Mark Taylor
  *

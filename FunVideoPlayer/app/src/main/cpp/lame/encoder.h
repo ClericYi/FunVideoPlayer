@@ -1,5 +1,5 @@
 /*
- *      encoder.h include file
+ *      encoder.h ffmpeg.include file
  *
  *      Copyright (c) 2000 Mark Taylor
  *

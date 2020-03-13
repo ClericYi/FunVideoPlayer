@@ -1,5 +1,5 @@
 /*
- *	bit reservoir include file
+ *	bit reservoir ffmpeg.include file
  *
  *	Copyright (c) 1999 Mark Taylor
  *

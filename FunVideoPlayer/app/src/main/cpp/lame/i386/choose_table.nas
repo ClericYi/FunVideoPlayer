@@ -4,7 +4,7 @@
 ;	Copyright (C) 1999 shigeo
 ;	modified by Keiichi SAKAI
 
-%include "nasm.h"
+%ffmpeg.include "nasm.h"
 
 	globaldef	choose_table_MMX
 	globaldef	MMX_masking

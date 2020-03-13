@@ -1,5 +1,5 @@
 /*
- *      lame_intrin.h include file
+ *      lame_intrin.h ffmpeg.include file
  *
  *      Copyright (c) 2006 Gabriel Bouvigne
  *

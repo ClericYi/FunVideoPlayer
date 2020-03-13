@@ -8,7 +8,7 @@
 ;	Frank Klemm, Robert Hegemann 2000-10-12
 ;
 
-%include "nasm.h"
+%ffmpeg.include "nasm.h"
 
 	globaldef	has_MMX_nasm
 	globaldef	has_3DNow_nasm

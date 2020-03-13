@@ -3,8 +3,8 @@
 //
 
 #include "com_clericyi_player_Mp3Encoder.h"
-#include "common/CommonTools.h"
 #include "mp3_encoder.h"
+#include "../common/CommonTools.h"
 #include <jni.h>
 #include <string>
 

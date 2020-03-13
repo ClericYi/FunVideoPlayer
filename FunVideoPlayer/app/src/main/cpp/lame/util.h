@@ -1,5 +1,5 @@
 /*
- *      lame utility library include file
+ *      lame utility library ffmpeg.include file
  *
  *      Copyright (c) 1999 Albert L Faber
  *      Copyright (c) 2008 Robert Hegemann

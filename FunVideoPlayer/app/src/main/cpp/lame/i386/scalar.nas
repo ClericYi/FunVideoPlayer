@@ -3,7 +3,7 @@
 ;    Dedicated to the LAME project
 ;
 ;
-        %include "nasm.h"
+        %ffmpeg.include "nasm.h"
 
         segment_code
         
